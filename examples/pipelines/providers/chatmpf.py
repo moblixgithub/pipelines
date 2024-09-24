@@ -14,7 +14,7 @@ class Pipeline:
         SEARCH_KEY: str
 
     def __init__(self):
-        self.name = "ChatMPF"
+        self.name = "ChatMPF2"
         self.valves = self.Valves(
             **{
                 "AZURE_OPENAI_API_KEY": os.getenv("AZURE_OPENAI_API_KEY", "your-azure-openai-api-key-here"),
